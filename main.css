@@ -78,6 +78,8 @@ button {
 .about__sun-image {
     width: 100px;
     height: 100px;
+    animation: rotation 10s linear infinite;
+    position: absolute;
 }
 
 .form__container {
@@ -196,4 +198,22 @@ footer h3 {
 
 .footer__links a {
     margin-bottom: 15px;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0)
+    }
+    25% {
+        transform: rotate(90deg)
+    }
+    50% {
+        transform: rotate(180deg)
+    }
+    75% {
+        transform: rotate(270deg)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
 }
