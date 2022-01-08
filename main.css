@@ -156,7 +156,7 @@ input {
 button:hover{
     background-color: #f6980c;
     box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease-in;
 }
 
 footer {
@@ -174,28 +174,26 @@ footer {
 }
 
 .footer__copyright {
-    padding-top: 40px;
+    margin-top: 40px;
     text-align: center;
     opacity: 0.5;
 }
 
 .footer__group {
-    padding-right: 80px;
+    margin-right: 80px;
 }
 
-.footer__group h3 {
+footer h3 {
     font-size: 16px;
     opacity: 0.7;
-    margin: 30px;
+    margin-bottom: 30px;
 }
 
-div .footer__links {
+.footer__links {
     display: flex;
     flex-direction: column;
 }
 
 .footer__links a {
     margin-bottom: 15px;
-    margin-left: 30px;
-
 }
