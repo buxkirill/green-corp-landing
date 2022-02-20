@@ -1,4 +1,5 @@
 const INCREASE_NUMBER_ANIMATION_SPEED = 50;
+let animationInited = false;
 
 function increaseNumberAnimationStep(i, element, endNumber) {
     if (i <= endNumber) {
